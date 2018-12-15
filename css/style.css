@@ -1,0 +1,114 @@
+.container{
+	max-width: 1100px;
+	min-width: 840px;
+	margin: 0 auto;
+	border: 1px solid #90bd6b;
+	margin: 2px auto;
+}
+.form-header{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #90bd6b;
+	background: #c1eb9f;
+	padding-left: 10px;
+}
+.form-header p:first-child{
+	font-size: 20px;
+	font-weight: bold;
+}
+.form-header p:last-child{
+	position: relative;
+	margin-left: 50px;
+	font-size: 14px;
+}
+.form-header p:last-child::after {
+	content: " ";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid black;
+    display: block;
+    position: absolute;
+    top: 12px;
+	right: -15px;
+}
+.form-content{
+	display: flex;
+}
+.column{
+	width: 50%;
+}
+.left{
+	padding: 17px 88px 10px 10px;
+}
+.left p{
+	line-height: 2;
+}
+.left input, .left select, .left textarea, .left label{
+	float: right;
+	width: 200px;
+	resize: none;
+}
+.left span{
+	color: red;
+}
+.right{
+	padding: 17px 33px 10px 10px;
+}
+.address{
+	display: block;
+	height: 100px;
+}	
+.website{
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.website div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+.right label{
+	float: right;
+}
+.right > div{
+	display: flex;
+	margin-bottom: 40px;
+}
+.right > div div{
+	display: flex;
+	flex-direction: column;
+}
+.right > div p{
+	width: 210px;
+	margin-right: 50px;
+}
+.mesage{
+	height: 100px;
+	display: block;
+}
+.mesage textarea {
+	height: 100px;
+	width: 200px;
+	resize: none;
+	float: right;
+}
+.footer{
+	background: #e3e3e3;
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #c6dff5;
+}
+.button{
+	width: 86px;
+	height: 24px;
+	margin: 5px 0;
+	background: #91ba6f;
+	border: 1px solid #7aa359;
+}
+.button:last-child{
+	margin-left: 5px;
+}

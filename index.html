@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home work 6</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form action="" name="form1">
+		<div class="container">
+			<div class="form-header">
+				<p>Contact Manager</p>
+				<p>More Actions</p>
+			</div>
+			<div class="form-content">
+				<div class="left column">
+					<p>First Name <span>*</span><input type="text"></p>
+					<p>Last Name <span>*</span><input type="text" name="Last_name"></p>
+					<p class="address">Adress<textarea name="address" cols="25" rows="6" class="adress"></textarea></p>
+					<p>City<input type="text" name="City"></p>
+					<p>State<select name="State" form="form1" class="state">
+							<option value="State 1">State 1</option>
+							<option value="State 2">State 2</option>
+							<option value="State 3">State 3</option>
+						</select></p>
+					<p>Home Phone<input type="tel" name="Home_phone" style="width: 100px; margin-right: 100px;"></p>
+					<p>Work Phone <span>*</span><input type="tel" name="Work_phone"></p>
+					<p>Fax Number<input type="tel" name="Fax_number" style="width: 100px; margin-right: 100px;"></p>
+					<div class="website">
+						<p>Website</p>
+						<div>
+							<label>URL <input type="text" name="URL" style="width: 118px;"></label>
+							<label>Link Name <input type="text" name="Link_name" style="width: 118px;"></label>
+						</div>
+					</div>
+					<p>Email Address <span>*</span><input type="email" name="Email_address"></p>
+				</div>
+				<div class="right column">
+					<div>
+						<p>When is the best time to contact you?</p>
+						<div>
+							<label><input type="radio" name="time_to_contact"> Morning</label>
+							<label><input type="radio" name="time_to_contact"> Afternoon</label>
+							<label><input type="radio" name="time_to_contact"> Evening</label>
+						</div>
+					</div>
+					<div>
+						<p>What is the best way to contact?</p>
+						<div>
+							<label><input type="radio" name="way_to_contact"> Phone</label> 
+							<label><input type="radio" name="way_to_contact"> Email</label>
+							<label><input type="radio" name="way_to_contact"> Fax</label>
+						</div>
+					</div>
+					<p class="mesage">Message <textarea name="Mesage"cols="30" rows="10"></textarea></p>
+					</div>
+			</div>	
+			<div class="footer">
+				<input type="submit" class="button">
+				<input type="reset" class="button">
+			</div>
+		</div>
+	</form>
+</body>
+</html>
